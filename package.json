@@ -4,7 +4,8 @@
   "description": "Simple proxy server used to overcome browser CORS issues when working with OpenStack APIs",
   "main": "cors_proxy.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node cors_proxy.js"
   },
   "repository": {
     "type": "git",
