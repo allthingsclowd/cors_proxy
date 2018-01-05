@@ -28,6 +28,8 @@
   },
   "homepage": "https://github.com/allthingsclowd/cors_proxy#readme",
   "dependencies": {
-    "cors-anywhere": "^0.4.1"
+    "cors-anywhere": "^0.4.1",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
   }
 }
