@@ -1,0 +1,32 @@
+{
+  "name": "cors_proxy",
+  "version": "0.0.1",
+  "description": "Simple proxy server used to overcome browser CORS issues when working with OpenStack APIs",
+  "main": "cors_proxy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allthingsclowd/cors_proxy.git"
+  },
+  "keywords": [
+    "cors",
+    "cross",
+    "origin",
+    "resource",
+    "sharing",
+    "api",
+    "openstack",
+    "allthingscloud.eu"
+  ],
+  "author": "Graham J Land",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/allthingsclowd/cors_proxy/issues"
+  },
+  "homepage": "https://github.com/allthingsclowd/cors_proxy#readme",
+  "dependencies": {
+    "cors-anywhere": "^0.4.1"
+  }
+}
