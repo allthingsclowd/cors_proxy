@@ -16,3 +16,8 @@ git clone https://github.com/allthingsclowd/cors_proxy.git .
 ```bash
 docker build -t cors_proxy .
 ```
+
+ 3. Run the image
+ ```bash
+ docker run -it --rm -p 2337:2337 cors_proxy
+ ```
