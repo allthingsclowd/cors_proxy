@@ -1,9 +1,10 @@
-# Cross Origin Resource Sharing (CORS) Proxy Server wrapped in Docker Container 
+# Cross Origin Resource Sharing (CORS) Proxy Server wrapped in Docker Container or Cloud Foundry 
 Simple proxy server used to overcome browser CORS issues when working with OpenStack APIs
 
 Utilises super npm package located here https://github.com/Rob--W/cors-anywhere
 
 # Installation
+
 ## Docker
 This cors proxy application has been built to run inside a docker container as follows:
 
@@ -26,3 +27,22 @@ docker build -t cors_proxy .
   4. Verify by opening a browser and navigating to port 2337 on your docker host's ip address e.g. http://<docker-host-ip>:2337
 
   ![image](https://user-images.githubusercontent.com/9472095/34605322-0e8e4c7e-f203-11e7-9ccb-40f6f95c33f9.png)
+
+# Installation
+
+## Cloud Foundry
+This is as easy as you'd expect when using a PaaS platform
+
+ 1. Download the repository from my github account https://github.com/allthingsclowd
+```bash
+mkdir cors_proxy && cd cors_proxy
+git clone https://github.com/allthingsclowd/cors_proxy.git .
+```
+
+ 2. Upload the application to your Cloud Foundry platform
+ ```bash
+ cf push
+ ```
+ 
+
+
