@@ -8,11 +8,11 @@ This cors proxy application has been built to run inside a docker container as f
 
  1. Download the repository from my github account https://github.com/allthingsclowd
 ```bash
-mkdir cors\_proxy && cd cors\_proxy
+mkdir cors_proxy && cd cors_proxy
 git clone https://github.com/allthingsclowd/cors_proxy.git .
 ```
 
  2. Build the docker container image
 ```bash
-docker build -t cors\_proxy .
+docker build -t cors_proxy .
 ```
