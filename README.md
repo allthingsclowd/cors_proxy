@@ -1,7 +1,7 @@
-# cors_proxy
+# Cross Origin Resource Sharing (CORS) Proxy Server wrapped in Docker Container 
 Simple proxy server used to overcome browser CORS issues when working with OpenStack APIs
 
-Utilises great package located here https://github.com/Rob--W/cors-anywhere
+Utilises super npm package located here https://github.com/Rob--W/cors-anywhere
 
 # Installation
 ## Docker
@@ -26,4 +26,3 @@ docker build -t cors_proxy .
   4. Verify by opening a browser and navigating to port 2337 on your docker host's ip address e.g. http://<docker-host-ip>:2337
 
   ![image](https://user-images.githubusercontent.com/9472095/34605322-0e8e4c7e-f203-11e7-9ccb-40f6f95c33f9.png)
-  
